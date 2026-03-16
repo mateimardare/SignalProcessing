@@ -1,0 +1,95 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:86:5"
+
+[OnMainPanelCB]
+Class="Function"
+Prototype="int OnMainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:111:17"
+
+[OnLoadButtonCB]
+Class="Function"
+Prototype="int OnLoadButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:122:17"
+
+[FilterTypeCB]
+Class="Function"
+Prototype="int FilterTypeCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:200:17"
+
+[PrevCB]
+Class="Function"
+Prototype="int PrevCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:232:17"
+
+[NextCB]
+Class="Function"
+Prototype="int NextCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:245:17"
+
+[RefreshCB]
+Class="Function"
+Prototype="int RefreshCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:258:17"
+
+[AlphaCB]
+Class="Function"
+Prototype="int AlphaCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:267:17"
+
+[filtMedCB]
+Class="Function"
+Prototype="int filtMedCB(int panel, int control, int event, void *callbackData, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:276:17"
+
+[TimeToPlayCB]
+Class="Function"
+Prototype="int TimeToPlayCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:289:17"
+
+[EnvelopeCB]
+Class="Function"
+Prototype="int EnvelopeCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:315:17"
+
+[SaveCB]
+Class="Function"
+Prototype="int SaveCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:373:17"
+
+[panelSwitchCB]
+Class="Function"
+Prototype="int panelSwitchCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:386:17"
+
+[onFreqPanelCB]
+Class="Function"
+Prototype="int onFreqPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:423:17"
+
+[OnStartTimer_Freq]
+Class="Function"
+Prototype="int OnStartTimer_Freq(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:441:17"
+
+[OnTimer_FreqCB]
+Class="Function"
+Prototype="int OnTimer_FreqCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:458:17"
+
+[SamplesNumCB]
+Class="Function"
+Prototype="int SamplesNumCB(int panel, int control, int event, void *callbackData, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:623:17"
+
+[onFilterRing]
+Class="Function"
+Prototype="int onFilterRing(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:645:17"
+
+[snap1CB]
+Class="Function"
+Prototype="int snap1CB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c:659:17"
+

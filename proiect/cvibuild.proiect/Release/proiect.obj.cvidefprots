@@ -1,0 +1,65 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:66:5"
+
+[OnMainPanelCB]
+Class="Function"
+Prototype="int OnMainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:81:17"
+
+[MenuBarCallback]
+Class="Function"
+Prototype="void MenuBarCallback(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:100:18"
+
+[UpFileCallback]
+Class="Function"
+Prototype="void UpFileCallback(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:105:18"
+
+[OnLoadButtonCB]
+Class="Function"
+Prototype="int OnLoadButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:111:17"
+
+[AlphaCB]
+Class="Function"
+Prototype="int AlphaCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:240:17"
+
+[PrevCB]
+Class="Function"
+Prototype="int PrevCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:256:17"
+
+[NextCB]
+Class="Function"
+Prototype="int NextCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:266:17"
+
+[FilterTypeCB]
+Class="Function"
+Prototype="int FilterTypeCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:276:17"
+
+[RefreshCB]
+Class="Function"
+Prototype="int RefreshCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:301:17"
+
+[TimeToPlayCB]
+Class="Function"
+Prototype="int TimeToPlayCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:309:17"
+
+[EnvelopeCB]
+Class="Function"
+Prototype="int EnvelopeCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:333:17"
+
+[SaveCB]
+Class="Function"
+Prototype="int SaveCB(int panel, int control, int event, void *cbdata, int e1, int e2);"
+SourceLocation="d:\an3\sem1\APD\proiect\proiect.c:387:17"
+

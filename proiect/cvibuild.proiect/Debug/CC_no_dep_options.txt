@@ -1,0 +1,1 @@
+-force-include-file "fcts.c";"d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c" -force-include-file "fcts.h";"d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.h" -force-include-file "proiect.c";"d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.c" -force-include-file "proiect.h";"d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\proiect.h" 

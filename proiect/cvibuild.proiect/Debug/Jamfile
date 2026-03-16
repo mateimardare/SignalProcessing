@@ -1,0 +1,50 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"c:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "fcts.c" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect" ;
+LOCATE on "fcts.h" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect" ;
+LOCATE on "proiect.c" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect" ;
+LOCATE on "proiect.h" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect" ;
+Object "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\fcts.c" ;
+FILENUM on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj" = 1 ;
+DEFPROTS on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj.cvidefprots" ;
+OUTFILE on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj.out" ;
+PrjObjects += "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\fcts.obj" ;
+Object "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\proiect.c" ;
+FILENUM on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj" = 2 ;
+DEFPROTS on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj.cvidefprots" ;
+OUTFILE on "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj" = "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj.out" ;
+PrjObjects += "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.obj" ;
+Object "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\resources.res" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\resources.in.rc" ;
+Depends "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\resources.res" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.exe" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\link_options.txt" ;
+Depends "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.exe" : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\resources.res" ;
+Depends all : "d:\\an3\\sem1\\APD\\proect_APD_MateiMardare\\proiect\\cvibuild.proiect\\Debug\\proiect.exe" ;

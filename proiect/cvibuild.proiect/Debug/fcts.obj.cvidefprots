@@ -1,0 +1,45 @@
+[moving_average]
+Class="Function"
+Prototype="double *moving_average(const double *src, int n, int window);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:62:9"
+
+[filter_order1]
+Class="Function"
+Prototype="double *filter_order1(const double *src, int n, double alpha_param);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:80:9"
+
+[compute_envelope]
+Class="Function"
+Prototype="double *compute_envelope(const double *src, int n, int peak_window);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:94:9"
+
+[filtrare_domeniu_timp]
+Class="Function"
+Prototype="double *filtrare_domeniu_timp(double *pts, int npts);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:155:9"
+
+[plot_second]
+Class="Function"
+Prototype="void plot_second(int panel, int graphCtrl, const double *data, int n, double sr, double sec, int color);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:172:6"
+
+[save_graph_to_jpeg]
+Class="Function"
+Prototype="int save_graph_to_jpeg(int panel, int graphCtrl, const char *filename);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:203:5"
+
+[compute_statistics]
+Class="Function"
+Prototype="void compute_statistics();"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:211:6"
+
+[update_statistics_ui]
+Class="Function"
+Prototype="void update_statistics_ui(int panel);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:240:6"
+
+[FIRHighpass]
+Class="Function"
+Prototype="int FIRHighpass(double *input, double *output, double *h, int n_coeff, int n_samples);"
+SourceLocation="d:\an3\sem1\APD\proect_APD_MateiMardare\proiect\fcts.c:276:5"
+

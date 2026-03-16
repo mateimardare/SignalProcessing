@@ -1,0 +1,1 @@
+-force-include-file "fcts.c";"d:\an3\sem1\APD\proiect\fcts.c" -force-include-file "fcts.h";"d:\an3\sem1\APD\proiect\fcts.h" -force-include-file "proiect.c";"d:\an3\sem1\APD\proiect\proiect.c" -force-include-file "proiect.h";"d:\an3\sem1\APD\proiect\proiect.h" 
